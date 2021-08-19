@@ -62,5 +62,12 @@ public class ItemCfCoeff {
 
     }
 
-
+    public static void main(String[] args) {
+        ItemCfCoeff item = new ItemCfCoeff();
+        try {
+            item.twoItemCfCoeff("1","4");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }
